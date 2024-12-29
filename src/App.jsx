@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import ChatInterface from './components/ChatInterface'
 import './App.css'
+import PumpPortalTest from './components/PumpPortalTest'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1 className="text-gray-800">Hivenat Chat</h1>
       </header>
       <ChatInterface />
+      <PumpPortalTest />
     </div>
   )
 }
